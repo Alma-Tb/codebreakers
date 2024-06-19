@@ -1,0 +1,45 @@
+.about-container {
+    padding-top: 1px;
+    padding: 40PX;
+    background-color: #fff9eb; /* Background color */
+    color: black; /* Text color */
+    text-align: left;
+   
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    
+    margin-top: 5%;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #163823; 
+    font-family: 'Ribeye', sans-serif;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+  max-width: 1000px;
+    text-align: justify;
+  }
+  
+  /* Styling links */
+  .section a {
+    color: #61dafb; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .section a:hover {
+    text-decoration: underline;
+  }
+  

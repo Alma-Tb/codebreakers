@@ -1,0 +1,73 @@
+/* Cesar.css */
+.caesar-container {
+  display: flex;
+  flex-direction: column;
+  /* Add some margin and padding for better spacing */
+  margin: 20px auto;
+  padding: 20px;
+  /* Optional: Set a background color or border */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 450px;
+  /* Adjust width as needed */
+  background-color: #FFB91C;
+}
+
+
+.caesar-container label {
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.caesar-container textarea,
+.caesar-container input,
+.caesar-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.caesar-container button {
+  background-color: #163823;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.caesar-container button:hover {
+  background-color: #444744;
+  /* Green Hover */
+}
+
+.caesar-container p {
+  margin-bottom: 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+
+}
+
+.header {
+  top: 300px;
+
+  color: #fff9eb;
+
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Ribeye', sans-serif;
+
+}

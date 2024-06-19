@@ -1,0 +1,53 @@
+.home-animation-1-row {
+  display: flex;
+  /* Arrange characters horizontally */
+  justify-content: center;
+  /* Center characters within the row */
+  flex-wrap: nowrap;
+  /* Prevent characters from wrapping onto multiple lines */
+  align-items: center;
+}
+
+
+.animated-char {
+  position: relative;
+  /* Needed for positioning the circle behind the letter */
+  font-size: 40px;
+  /* Adjust font size as neAeded */
+  margin: 0 5px;
+  /* Add spacing between characters */
+  color: #fFFFFF;
+  align-items: center;
+  /* Align content vertically within the element */
+  line-height: 1.1;
+  letter-spacing: -1px;
+  position: relative;
+  width: 10%;
+  font-weight: 500;
+  font-family: 'Ribeye', sans-serif;
+}
+
+.animated-char-circle {
+  position: absolute;
+  top: 13;
+  left: 0.9%;
+  width: 150%;
+  height: 110%;
+  border-radius: 20%;
+  background-color: #fff9eb;
+  /* Adjust background color as needed */
+  opacity: 0.5;
+  /* Set opacity to 1 to make the circle visible by default */
+  /*top: 10%;  Position the circle vertically at the center */
+  transform: translatex(-15%);
+}
+
+.home-animation-1-textb {
+  opacity: .65;
+  font-family: Roboto Mono, monospace;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}

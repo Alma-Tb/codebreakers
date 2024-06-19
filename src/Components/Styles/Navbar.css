@@ -1,0 +1,111 @@
+/* navbar styles */
+nav {
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  max-width: fit-content;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  height: 60px;
+  padding: 0px 19px;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hide {
+  color: transparent;
+}
+
+.nav-item {
+  margin-right: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #fff9eb;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative; /* Ensure dropdown is positioned relative to .dropdown parent */
+}
+
+.dropdown-toggle {
+  cursor: pointer; 
+  position: relative; 
+  display: block;
+  padding: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  z-index: 1000; /* Ensure dropdown menu stays on top of other content */
+  background-color: inherit; 
+  
+  padding: 0px ; 
+  min-width: 160px; 
+  display: none; 
+  }
+
+.dropdown:hover .dropdown-menu {
+  display: block; 
+}
+
+.dropdown-item {
+  padding: 2px 6px; 
+  text-align: left;
+  display: flex;
+  word-wrap: initial;
+}
+
+
+.dropdown-link {
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease;
+  
+  
+}
+
+.dropdown-link:hover {
+  background-color: #f0f0f0; 
+}
+
+/* Custom bullet for dropdown menu */
+.dropdown-item:before {
+  content: "*"; 
+  margin-right: 5px; /* Adjust margin between bullet and text */
+}
+

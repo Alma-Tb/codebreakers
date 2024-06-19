@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&family=Space+Grotesk:wght@400;700&display=swap');
+
+
+.Landingchoose {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background: #fff9eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Leftcolumn,
+.Rightcolumn {
+  width: calc(50% - 10px); /* 50% width minus 10px for spacing */
+  max-width: 300px;
+}
+
+.Leftcolumn {
+  margin-right: 20px;
+}
+
+.Rightcolumn {
+  margin-left: 20px;
+}
+
+.HistoryRec,
+.CryptotoolRec {
+  background-color: #ffb91c;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  text-align: left;
+  height: 300px;
+}
+
+.HButton,
+.CButton {
+  width: 100%;
+  max-width: 221px;
+  height: 50px;
+  background-color: #fff9eb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-left: 15px;
+}
+.HButton{
+  margin-top: 30px;
+}
+
+.CButton{
+  margin-top: 30px;
+}
+
+.HButton:hover{
+  background-color: #163823;
+}
+
+.CButton:hover{
+  background-color:#163823;
+}
+
+.LearnMoreLink {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Ribeye', sans-serif;
+  font-weight: 400;
+}
+
+
+.HText,
+.CText {
+  margin-top: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.TextColumn {
+  flex: 1; /* Take remaining space */
+  max-width: 50%; /* Max width for responsiveness */
+}
+
+.TextBelow {
+  margin-top: 10px;
+}
+
+.Text {
+  color: black;
+  font-size: 16px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 30px;
+}
