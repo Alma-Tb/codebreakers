@@ -15,16 +15,17 @@ This web application was developed as a capstone project for the Number Theory a
 To run the web app locally:
 
 1. Clone this repository.
-git clone <repository-url>
+   - git clone <repository-url>
 2. Navigate to the project directory.
-cd CryptoTool
+    - cd CryptoTool
 3. Install dependencies with npm (Node.js should be installed first).
-npm install
+    - npm install
 
 4. Start the server.
-npm start
+    - npm start
 
-5. Open your web browser and go to [http://localhost:3000](http://localhost:3000).
+5. Open your web browser and go to
+   - [http://localhost:3000](http://localhost:3000).
 
 To use the CryptoTool, navigate to the server directory and start the server with:
-node server.js
+    - node server.js
